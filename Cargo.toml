@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 rust-version = "1.85"
 description = "Generate a random 12-word BIP39 passphrase joined with hyphens"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/peterpeerdeman/crypto-password"
 publish = false
 
 [dependencies]
