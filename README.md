@@ -45,9 +45,4 @@ The output is a valid BIP39 mnemonic. Using it as a password is fine; if you use
 
 ## License
 
-Licensed under either of
-
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
-- MIT license ([LICENSE-MIT](LICENSE-MIT))
-
-at your option.
+[MIT](LICENSE)
