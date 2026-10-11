@@ -1,0 +1,18 @@
+[package]
+name = "crypto-password"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Generate a random 12-word BIP39 passphrase joined with hyphens"
+publish = false
+
+[dependencies]
+bip39 = { version = "3.0", features = ["zeroize"] }
+getrandom = "0.4"
+zeroize = "1.8"
+
+[profile.release]
+panic = "abort"
+lto = true
+codegen-units = 1
+strip = true
